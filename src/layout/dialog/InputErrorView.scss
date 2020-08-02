@@ -1,0 +1,8 @@
+@import "~@blueprintjs/core/lib/scss/variables";
+
+.formGroupError {
+  margin: 0.5rem 0;
+  background-color: $vermilion5;
+  border: 2px $vermilion3 solid;
+  color: $white;
+}
