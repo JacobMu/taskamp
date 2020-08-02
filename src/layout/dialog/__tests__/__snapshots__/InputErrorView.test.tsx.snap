@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InputErrorView /> renders input error card with message 1`] = `
+<Blueprint3.Card
+  className="formGroupError"
+  elevation={0}
+  interactive={false}
+>
+  errorMsg
+</Blueprint3.Card>
+`;

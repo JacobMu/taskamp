@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LoginPageContainer /> renders Login page form 1`] = `
+<div
+  className="loginFormLayout"
+>
+  <Blueprint3.Card
+    elevation={0}
+    interactive={false}
+  >
+    <Blueprint3.FormGroup>
+      <LoginPageFormView />
+      <Blueprint3.Button
+        onClick={[MockFunction handleSubmitMock]}
+      >
+        login.form.confirmBtn
+      </Blueprint3.Button>
+    </Blueprint3.FormGroup>
+  </Blueprint3.Card>
+</div>
+`;

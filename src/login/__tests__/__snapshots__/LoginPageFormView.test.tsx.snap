@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LoginPageContainer /> renders Login page form 1`] = `
+<Fragment>
+  <Blueprint3.InputGroup
+    placeholder="login.form.username"
+  />
+  <Blueprint3.InputGroup
+    leftIcon="lock"
+    placeholder="login.form.password"
+  />
+  <Blueprint3.Switch
+    label="login.form.rememberMe"
+  />
+</Fragment>
+`;

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SideMenuBarContainer /> renders side menu bar 1`] = `
+<div
+  className="sideMenuBarPosition"
+>
+  <CreateNewTaskDialogContainer
+    dispatchNewCard={[MockFunction dispatchNewCardMock]}
+    handleClose={[MockFunction handleCloseMock]}
+    isDialogOpen={false}
+  />
+  <Blueprint3.Button
+    icon="add"
+    key="key"
+    large={true}
+    onClick={[Function]}
+  >
+    translation key
+  </Blueprint3.Button>
+</div>
+`;

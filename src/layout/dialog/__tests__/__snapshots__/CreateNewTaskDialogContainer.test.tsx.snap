@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CreateNewTaskDialogContainer /> renders dialog with form 1`] = `
+<Blueprint3.Dialog
+  canOutsideClickClose={true}
+  isCloseButtonShown={true}
+  isOpen={true}
+  onClose={[MockFunction handleCloseMock]}
+  title="createNewTaskDialog.title"
+>
+  <div
+    className="formGroupPadding"
+  >
+    <Blueprint3.FormGroup>
+      <Component>
+        dialog.form.taskId.label
+        <Blueprint3.InputGroup
+          fill={true}
+          onChange={[Function]}
+        />
+      </Component>
+      <Component>
+        dialog.form.taskNameLabel
+        <Blueprint3.InputGroup
+          fill={true}
+          onChange={[Function]}
+        />
+      </Component>
+      <Component>
+        dialog.form.dateLabel
+        <Blueprint3.DateInput
+          closeOnSelection={true}
+          dayPickerProps={Object {}}
+          defaultValue="12.12.2020"
+          disabled={true}
+          fill={true}
+          formatDate={[Function]}
+          invalidDateMessage="Invalid date"
+          maxDate={2020-12-31T15:42:44.608Z}
+          minDate={2000-01-01T15:42:44.608Z}
+          outOfRangeMessage="Out of range"
+          reverseMonthAndYearMenus={false}
+        />
+      </Component>
+      <Component>
+        dialog.form.describtionLabel
+        <Blueprint3.TextArea
+          fill={true}
+          onChange={[Function]}
+        />
+      </Component>
+      <Component>
+        dialog.form.selectLabel
+        <div
+          className="bp3-select"
+        >
+          <select
+            onChange={[Function]}
+          >
+            <option
+              key="LOWEST"
+              value="LOWEST"
+            >
+              LOWEST
+            </option>
+            <option
+              key="LOW"
+              value="LOW"
+            >
+              LOW
+            </option>
+            <option
+              key="MEDIUM"
+              value="MEDIUM"
+            >
+              MEDIUM
+            </option>
+            <option
+              key="HIGH"
+              value="HIGH"
+            >
+              HIGH
+            </option>
+            <option
+              key="HIGHEST"
+              value="HIGHEST"
+            >
+              HIGHEST
+            </option>
+          </select>
+        </div>
+      </Component>
+    </Blueprint3.FormGroup>
+    <Blueprint3.Divider />
+    <Blueprint3.ButtonGroup
+      className="formGroupPadding"
+    >
+      <Blueprint3.Button
+        onClick={[MockFunction handleConfirmMock]}
+      >
+        dialog.confirmBtn
+      </Blueprint3.Button>
+    </Blueprint3.ButtonGroup>
+  </div>
+</Blueprint3.Dialog>
+`;
